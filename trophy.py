@@ -19,7 +19,7 @@ def show_dungeon_results(inventory):
         if item["rarity"] in ["Rare", "Epic"]
     ]
 
-    print("\n💎 РІДКІСНІ ТА ЕПІЧНІ ПРЕДМЕТИ:")
+    print("\n РІДКІСНІ ТА ЕПІЧНІ ПРЕДМЕТИ:")
     for item in rare_items:
         print(f'{item["name"]} — {item["rarity"]}')
 
